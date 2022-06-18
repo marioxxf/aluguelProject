@@ -9,13 +9,7 @@ export default function Sobre(){
                     Sobre o App
             </Text>
             <View style={styles.card}>
-                <Text style={styles.content}>
-                    O app AlugueP2 foi construído com o objetivo de facilitar a vida de quem procura alugar um imóvel.
-                    Aqui oferecemos uma variadade de lugares incriveis, como casas, apartamentos, hotéis e muito mais.
-                    A burocracia aqui é zero.
-                </Text>
             </View>
-            <Image style={{width: 370, height:300, borderRadius:10}} source={require('../../assets/sobre.jpg')} />
         </View>
     )
 }
